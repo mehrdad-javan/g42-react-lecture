@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import App from './ex1-class-component/App';
+import FirstClassComponent from './ex1-class-component/FirstClassComponent';
+import HeaderClassComponent from './ex1-class-component/HeaderClassComponent';
+import Main from './ex2-function-component/Main';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+//const message = <h1>Hello React App</h1>
+//ReactDOM.render(message, document.getElementById('root')  );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+ReactDOM.render( <Main />   ,    document.getElementById('root'));
