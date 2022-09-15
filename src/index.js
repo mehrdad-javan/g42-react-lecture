@@ -15,6 +15,8 @@ import NameListProps from './ex7-props/NameListProps';
 import MenuList from './ex7-props/MenuList';
 import Car from './ex8-state/Car';
 import Product from './ex8-state/Product';
+import Counter from './ex9-event/Counter';
+import Person from './ex9-event/Person';
 
 //const message = <h1>Hello React App</h1>
 //ReactDOM.render(message, document.getElementById('root')  );
@@ -29,4 +31,7 @@ const links = [
 //ReactDOM.render( <MenuList links={links} />   ,    document.getElementById('root'));
 
 //const product = {id: 1, image: 'oca.jpg', name: 'OCA', price: 50.00, description: 'Oracle Certified Assosiation STUDY GUYDE!'};
-ReactDOM.render( <Product id={2} /> ,   document.getElementById('root'))
+//ReactDOM.render( <Product id={2} /> ,   document.getElementById('root'))
+
+
+ReactDOM.render( <Person /> ,   document.getElementById('root'));
