@@ -1,5 +1,5 @@
 import React from 'react';
-
+//import './table.css';
 
 const TableHeader = () => {
     return ( <thead>
@@ -15,9 +15,9 @@ const TableHeader = () => {
 const TableAction = () => {
     return (
         <>
-            <button type='button' >Details</button>
-            <button type='button' >Delete</button>
-            <button type='button' >Edit</button>
+            <button type='button' className='btn btn-primary' >Details</button>
+            <button type='button' className='btn btn-danger' >Delete</button>
+            <button type='button' className='btn btn-warning'>Edit</button>
         </>
      
     )
@@ -47,7 +47,7 @@ const TableRow = () => {
 const Table = () => {
     return (
         <div>
-            <table border='1'>
+            <table className='table table-dark' border='1'>
                <TableHeader />
                <TableRow />
                 
